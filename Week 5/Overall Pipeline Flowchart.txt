@@ -1,0 +1,35 @@
+Start
+   ↓
+Load CIFAR-10 Dataset
+   ↓
+Generate Edge Images (Canny)
+   ↓
+Normalize to [-1,1]
+   ↓
+Build Encoder–Decoder Model
+   ↓
+Train Model (MSE)
+   ↓
+Evaluate & Visualize Results
+   ↓
+Change Loss to MAE
+   ↓
+Train Again
+   ↓
+Build U-Net Model
+   ↓
+Train U-Net (MAE)
+   ↓
+Compare Results
+   ↓
+End
+
+
+	 Requirements
+1	Load paired images
+2	Normalize images to [-1, 1]
+3	Train an encoder–decoder CNN (without GAN)
+4	Compute reconstruction loss (MSE or L1)
+5	Visualize translated images
+6	Use CIFAR-10 dataset
+7	Output images are expected to be blurry
